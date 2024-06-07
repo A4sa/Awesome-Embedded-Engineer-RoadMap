@@ -143,6 +143,14 @@ Embedded systems often communicate with other devices or external systems via in
 ---
 ### ✳️ MCU Programming
 #### 🔵Arduino
+If you do not have any background in programming the embedded systems, Arduino boards and libraries are the best choice for you to start and learn the basics. Just keep in mind that most of the Arduino libraries are developed for learning purposes and are not optimized to be used in industry.
+
+Additionally, the [Arduino Core](https://github.com/arduino/ArduinoCore-API) takes care of most of the low-level hardware-associated operations that you, as an embedded engineer, should be able to handle yourself or at least have a clear understanding of. If you want to become a professional embedded developer, you should be able to effectively use industry-standard APIs and SDKs provided and approved by microcontroller vendors, such as CMSIS for ARM Cortex-M microcontrollers, STM32Cube for STM32, ESP-IDF for Espressif microcontrollers, etc.
+
+- [🔗 Getting Started with Arduino](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino)
+- [🎞️ New Arduino Tutorials (YouTube Playlist)](https://youtube.com/playlist?list=PLGs0VKk2DiYw-L-RibttcvK-WBZm8WLEP)
+- [🎞️ Arduino in a commercial product?](https://www.youtube.com/watch?v=c5LzsqeSCAc)
+- [🎞️ Arduino Project to Product (YouTube Playlist)](https://www.youtube.com/playlist?list=PLEBQazB0HUyQd6Fsf5NQ75M9llbi1_j_8)
 #### 🔵ESP 32
 #### 🔵STM32
 #### 🔵 Raspberry Pi
@@ -154,6 +162,7 @@ Embedded systems often communicate with other devices or external systems via in
  C++, Objective-C, Fortran, Ada, and Go. GCC is a popular choice for embedded systems development due to its open source nature, maturity, stability, 
  portability, performance, and large community. On the other hand proprietary compilers like Keil and IAR offer toolchain support, target-specific 
  optimizations, and customer support, which may be preferred for specific projects. 
+ 
 #### 🔵CMake
  CMake and Make are both tools for building software applications. CMake is a meta-build system that generates Makefiles, which are then used by Make to build 
  the software. CMake is more versatile and cross-platform than Make, and it is becoming the more popular choice for modern software development.
@@ -167,13 +176,52 @@ Embedded systems often communicate with other devices or external systems via in
   including C, C++, Objective-C, Java, and Rust. GDB is a free and open-source software tool that is widely used by developers and researchers. 
 #### 🔵 JTAG
 ---
+### ✳️ Software Development Life Cycle (SDLC) Models
+
+Software Development Life Cycle (SDLC) models provide a structured approach to software development, guiding the process from planning to deployment and maintenance. These models provide a framework for organizing, managing, and executing software projects, ensuring a consistent and efficient development process.
+
+- [📝 What is the software development life cycle?](https://www.coderus.com/the-software-development-lifecycle/)
+- [📝 Embedded Product Development Life Cycle: Four Main Steps](https://www.sam-solutions.com/blog/embedded-product-development-life-cycle/)
+
+#### 🔵 Agile / SCRUM
+
+- [📝 Does agile work with embedded software?](https://www.embedded.com/does-agile-work-with-embedded-software/)
+- [📝 Scrum for embedded software: Good – but for reasons other than what your manager thinks](https://www.elektrobit.com/trends/scrum-for-embedded-software/)
+- [📝 What Is Scrum: A Guide to the Most Popular Agile Framework](https://www.scrumalliance.org/about-scrum)
+- [📝 An agile guide to scrum meetings](https://www.atlassian.com/agile/scrum/ceremonies)
+- [📝 What is scaled agile framework? (SAFe)](https://www.atlassian.com/agile/agile-at-scale/what-is-safe)
+- [🔗 Jira - Issue & Project Tracking Software](https://confluence.atlassian.com/jira)
+
+#### 🔵 V-Model (V-cycle)
+
+- [📝 What is the V model for software development](https://x-engineer.org/v-model-software-development/)
+- [📝 V Model In Software Engineering: Ultimate Guideline](https://biplus.com.vn/v-model-in-software-engineering/)
+
+### ✳️ Version Control Systems
+
+Version control systems are essential tools for managing changes to code and other digital assets. They track changes over time, allowing developers to revert to previous versions, collaborate effectively, and identify potential conflicts. Popular version control systems include Git, Mercurial, and Subversion. 
+
+#### 🔵 Git
+
+- [🎞️👶 Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE)
+- [🎞️ Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git](https://www.youtube.com/watch?v=Uszj_k0DGsg)
+---
+
 ### ✳️ Embedded Linux 
 #### 🔵 Linux Interal & Network
 #### 🔵 Kernel Device Driver
 ---
+
 ### ✳️ Embeddedd Operating System
 #### 🔵 OS Fundamental
 #### 🔵Bare Metal
 #### 🔵FreeRTOS
+
+### ✳️ Soft Skills
+
+Similar to other professions, embedded engineers require soft skills that can't be solely obtained from reading or watching videos. These skills are cultivated through interactions and tackling various work obstacles. Improving soft skills is not a one-size-fits-all approach. It will vary based on one's individual traits and requires self-awareness of your strengths and areas for growth. Enhancing these skills takes time and effort.
+
+- [📝 Soft Skills For Embedded Systems Software Developers](https://www.embeddedrelated.com/showarticle/1470.php)
+- [📝 10 Skills Every Embedded Engineer Should Have](https://medium.com/@lanceharvieruntime/10-skills-every-embedded-engineer-should-have-dcb867095b91)
 ---
 
